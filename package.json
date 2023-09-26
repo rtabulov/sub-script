@@ -1,0 +1,25 @@
+{
+  "name": "@rtabulov/sub-script",
+  "version": "1.0.0",
+  "description": "A CLI tool that copies subtitles from \"Subs\" folder",
+  "main": "dist/index.js",
+  "bin": {
+    "sub-script": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "Rassul",
+  "license": "ISC",
+  "repository": "https://github.com/rtabulov/sub-script",
+  "homepage": "https://github.com/rtabulov/sub-script#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.5",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0"
+  }
+}
