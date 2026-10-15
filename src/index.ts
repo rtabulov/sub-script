@@ -10,7 +10,7 @@ const SUB_EXTS = new Set(['.srt', '.ass', '.ssa', '.vtt', '.sub', '.idx', '.sup'
 const program = new Command();
 
 program
-  .version('1.0.1')
+  .version('1.0.3')
   .description('Copy subtitles from "Subs" folder')
   .option('-f, --folder <path>', 'Show folder containing Subs/', cwd())
   .parse(process.argv);
